@@ -1,0 +1,11 @@
+export { Header } from "./Header";
+export { Modal } from './Modal'
+export { Footer } from "./Footer";
+export { LargeCard } from "./LargeCard";
+export { MediumCard } from "./MediumCard";
+export { SearchCard } from "./SearchCard";
+export { MiddleSection } from "./MiddleSection";
+export { FilterSection } from "./FilterSection";
+export { DescriptionCard } from "./DescriptionCard";
+export { NewGamesSection } from "./NewGamesSection";
+export { FavoriteGamesSection } from "./FavoriteGamesSection";

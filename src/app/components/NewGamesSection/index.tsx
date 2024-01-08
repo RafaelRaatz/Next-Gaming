@@ -1,0 +1,1 @@
+export { NewGamesSection } from "./NewGamesSection";

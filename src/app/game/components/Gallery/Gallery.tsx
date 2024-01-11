@@ -1,10 +1,6 @@
 import { getRawgGame, getRawgGameImage } from "@/app/services/api";
 
 export async function Gallery() {
-  const games = await getRawgGame();
-  const gamesImage = await getRawgGameImage();
-
-  console.log(gamesImage);
   return (
     <div className="flex flex-col gap-4">
       <div className="flex justify-between items-center">
@@ -14,19 +10,20 @@ export async function Gallery() {
       <div className="flex gap-2">
         <img
           className="w-[750px] h-[510px] rounded hover:brightness-50 cursor-pointer"
-          src={games.background_image}
+          src="/RDR2.jpg"
           alt=""
         />
         <div className="flex flex-col gap-2">
-          
-          {gamesImage.slice(0, 2).map((game: any, key: any) => (
-            <img
-              key={key}
-              src={game.image}
-              className="w-[470px] h-[250px] rounded hover:brightness-50 cursor-pointer"
-              alt=""
-            />
-          ))}
+          <img
+            src="/RDR2B.png"
+            className="w-[470px] h-[250px] rounded hover:brightness-50 cursor-pointer"
+            alt=""
+          />
+                    <img
+            src="/rdr2.png"
+            className="w-[470px] h-[250px] rounded hover:brightness-50 cursor-pointer"
+            alt=""
+          />
         </div>
       </div>
     </div>

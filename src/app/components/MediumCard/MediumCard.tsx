@@ -17,7 +17,7 @@ export function MediumCard({
   platform,
 }: ICard) {
   return (
-    <div className="flex flex-col w-[26rem] bg-zinc-800 gap-2 rounded p-2 hover:bg-zinc-700 cursor-pointer ">
+    <div className="flex flex-col w-[25rem] bg-zinc-800 gap-2 rounded p-2 hover:bg-zinc-700 cursor-pointer ">
       <img src={image} alt="" className="h-[200px] rounded" />
       <div className="flex flex-col gap-2 ">
         <div className="flex justify-between items-center ">

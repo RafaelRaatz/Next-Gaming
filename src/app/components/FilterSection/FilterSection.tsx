@@ -64,7 +64,7 @@ export async function FilterSection({ games }: IGames) {
           </div>
         </div>
 
-        <div className="flex gap-8">
+        <div className="flex gap-2">
           {games.slice(15, 18).map((game: any, key: any) => (
            // eslint-disable-next-line react/jsx-key
            <Link href={`${game.id}`}> 

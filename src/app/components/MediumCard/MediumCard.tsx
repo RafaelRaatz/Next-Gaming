@@ -37,11 +37,8 @@ export function MediumCard({
           |
           <div className="flex items-center gap-1">
             <span className="text-[12px] text-zinc-500 font-bold">Genre:</span>
-            {genre?.slice(0,3).map((genre: any, key: any) => (
-              <span
-                key={key}
-                className="text-[10px] font-bold text-zinc-500  "
-              >
+            {genre?.slice(0, 3).map((genre: any, key: any) => (
+              <span key={key} className="text-[10px] font-bold text-zinc-500  ">
                 / {genre}
               </span>
             ))}
@@ -54,7 +51,7 @@ export function MediumCard({
         </div>
 
         <div className="flex gap-2 flex-wrap">
-          {platform?.slice(0,6).map((platforms: any, key: any) => (
+          {platform?.slice(0, 6).map((platforms: any, key: any) => (
             <div
               key={key}
               className=" flex items-center justify-center bg-zinc-700 p-2 h-4 rounded"

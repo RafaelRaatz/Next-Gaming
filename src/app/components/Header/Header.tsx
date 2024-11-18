@@ -28,14 +28,16 @@ export const Header = () => {
             className="modal"
           >
             <div className="absolute">
-            <h2 className="h2">Conteúdo do Modal</h2>
-            <button onClick={fecharModal} className="text-slate-950">Fechar Modal</button>
+              <h2 className="h2">Conteúdo do Modal</h2>
+              <button onClick={fecharModal} className="text-slate-950">
+                Fechar Modal
+              </button>
             </div>
           </Modal>
         </div>
         <Link href={`/`}>
-          <button>
-            <img className="w-28 h-20" src="/Logo.png" alt="" />
+          <button className="flex flex-col items-center">
+            <img className="w-28 h-20" src="/Logo.png" alt="" className="w-20" />
           </button>
         </Link>
 

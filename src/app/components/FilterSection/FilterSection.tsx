@@ -66,17 +66,17 @@ export async function FilterSection({ games }: IGames) {
 
         <div className="flex gap-2">
           {games.slice(15, 18).map((game: any, key: any) => (
-           // eslint-disable-next-line react/jsx-key
-           <Link href={`${game.id}`}> 
-          <MediumCard
-          key={key}
-          image={game.background_image}
-          name={game.name}
-          assessment={game.metacritic}
-          genre={game.genre}
-          platform={game.platform}
-        />
-        </Link>
+            // eslint-disable-next-line react/jsx-key
+            <Link href={`${game.id}`}>
+              <MediumCard
+                key={key}
+                image={game.background_image}
+                name={game.name}
+                assessment={game.metacritic}
+                genre={game.genre}
+                platform={game.platform}
+              />
+            </Link>
           ))}
         </div>
 

@@ -6,7 +6,7 @@ import { Footer, Header } from "./components";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ztaar",
+  title: "Gaming Room",
   description: "Give stars for your games",
 };
 

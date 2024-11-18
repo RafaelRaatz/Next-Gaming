@@ -19,7 +19,7 @@ export async function Gallery() {
             className="w-[470px] h-[250px] rounded hover:brightness-50 cursor-pointer"
             alt=""
           />
-                    <img
+          <img
             src="/rdr2.png"
             className="w-[470px] h-[250px] rounded hover:brightness-50 cursor-pointer"
             alt=""

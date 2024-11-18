@@ -63,7 +63,9 @@ export function GameCard({
           </div>
           <div className="flex gap-2">
             <div className=" flex items-center justify-center bg-zinc-700 p-2 h-4 rounded">
-              <span className="text-[10px] text-zinc-400">Playtime: {platform}hrs</span>
+              <span className="text-[10px] text-zinc-400">
+                Playtime: {platform}hrs
+              </span>
             </div>
           </div>
           <p>{description}</p>

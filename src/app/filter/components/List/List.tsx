@@ -6,7 +6,6 @@ interface IGames {
 }
 
 export async function List({ games }: IGames) {
-  
   return (
     <div className="w-[920px]  flex flex-col gap-2 ">
       <div className="flex ml-4 mr-4 justify-between items-center p-1">
@@ -18,14 +17,14 @@ export async function List({ games }: IGames) {
 
       <div className="flex gap-4 flex-wrap justify-around">
         {games.slice(14, 20).map((game: any, key: any) => (
-           <MediumCard
-           key={key}
-           image={game.background_image}
-           name={game.name}
-           assessment={game.metacritic}
-           genre={game.genre}
-           platform={game.platform}
-         />
+          <MediumCard
+            key={key}
+            image={game.background_image}
+            name={game.name}
+            assessment={game.metacritic}
+            genre={game.genre}
+            platform={game.platform}
+          />
         ))}
       </div>
 

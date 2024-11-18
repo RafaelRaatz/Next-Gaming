@@ -17,14 +17,14 @@ export async function NewGamesSection({ games }: IGames) {
         {games.slice(0, 3).map((game: any, key: any) => (
           // eslint-disable-next-line react/jsx-key
           <Link href={`game/${game.id}`}>
-          <MediumCard
-            key={key}
-            image={game.background_image}
-            name={game.name}
-            assessment={game.metacritic}
-            genre={game.genre}
-            platform={game.platform}
-          />
+            <MediumCard
+              key={key}
+              image={game.background_image}
+              name={game.name}
+              assessment={game.metacritic}
+              genre={game.genre}
+              platform={game.platform}
+            />
           </Link>
         ))}
       </div>

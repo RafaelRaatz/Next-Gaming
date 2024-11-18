@@ -2,7 +2,6 @@ import { getRawgGames } from "@/app/services/api";
 import { GameSection, SearchCard } from "../components";
 import { FilterSection, NewGamesSection } from "@/app/components";
 
-
 export default async function Game() {
   const games = await getRawgGames();
   return (

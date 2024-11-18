@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineUser } from "react-icons/ai";
@@ -37,7 +38,8 @@ export const Header = () => {
         </div>
         <Link href={`/`}>
           <button className="flex flex-col items-center">
-            <img className="w-28 h-20" src="/Logo.png" alt="" className="w-20" />
+            <Image alt="" src="/logo.png" width={100} height={100} className="w-20"/>
+           
           </button>
         </Link>
 
